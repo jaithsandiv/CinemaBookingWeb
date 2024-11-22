@@ -1,0 +1,22 @@
+:root {
+    --primary: #32012F;
+    --secondary: #524C42;
+    --accent: #F97300;
+
+    --background: #E2DFD0;
+    --surface: #FFFFFF;
+    --text: #32012F;
+    --text-light: rgba(255, 255, 255, 0.7);
+
+    --success: #10B981;
+    --warning: #F59E0B;
+    --error: #EF4444;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
