@@ -4,7 +4,9 @@
             <div class="row">
                 <!-- Logo and Description -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <a href="/" class="footer-logo">ABC Cinema</a>
+                    <a class="navbar-brand fs-4" href="index.php">
+                        <img src="images/logo.png" alt="" width="200">
+                    </a>
                     <p class="footer-description">Experience movies like never before with state-of-the-art technology and ultimate comfort.</p>
                 </div>
 

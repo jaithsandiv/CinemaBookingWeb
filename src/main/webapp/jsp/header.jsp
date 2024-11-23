@@ -4,8 +4,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: 'DM Sans', sans-serif;
             padding-top: 76px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'DM Sans', sans-serif;
         }
         .navbar {
             background-color: var(--primary);
@@ -135,7 +138,9 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">ABC</a>
+            <a class="navbar-brand fs-4" href="index.php">
+                <img src="images/logo.png" alt="" width="80">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -156,7 +161,7 @@
                 </ul>
                 <div class="d-flex">
                     <a href="#" class="btn btn-outline-light me-2">Book Now</a>
-                    <a href="#" class="btn btn-outline-light">Login</a>
+                    <a href="#" class="btn btn-outline-light me-2">Login</a>
                 </div>
             </div>
         </div>
