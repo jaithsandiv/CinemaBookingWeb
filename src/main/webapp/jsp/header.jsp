@@ -20,14 +20,14 @@
             font-weight: bold;
             font-size: 1.5rem;
         }
-        .nav-link, .btn-outline-light {
+        .nav-link, .btn-outline-light, .btn{
             color: white !important;
             transition: color 0.3s ease;
         }    
-        .navbar-brand:hover, .nav-link:hover, .btn-outline-light:hover {
+        .navbar-brand:hover, .nav-link:hover, .btn-outline-light:hover, .btn:hover{
             color: var(--secondary) !important;
         }
-        .btn-outline-light:hover {
+        .btn-outline-light:hover, .btn:hover{
             background-color: transparent;
             border-color: var(--secondary);
         }
@@ -44,7 +44,7 @@
         .navbar.minimized .navbar-brand {
             font-size: 1.1rem;
         }
-        .navbar.minimized .nav-link, .navbar.minimized .btn-outline-light {
+        .navbar.minimized .nav-link, .navbar.minimized .btn-outline-light, .btn{
             font-size: 0.9rem;
             padding: 0.4rem 0.8rem;
         }
@@ -138,7 +138,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand fs-4" href="index.php">
+            <a class="navbar-brand fs-4" href="#">
                 <img src="icons/logo.png" alt="" width="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,7 +161,7 @@
                 </ul>
                 <div class="d-flex">
                     <a href="#" class="btn btn-outline-light me-2">Book Now</a>
-                    <a href="#" class="btn btn-outline-light me-2">Login</a>
+                    <a href="#" class="btn">Login</a>
                 </div>
             </div>
         </div>
