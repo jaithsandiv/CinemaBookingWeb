@@ -9,7 +9,7 @@
     </head>
     <body>
         <div style="min-height: 100vh">
-            <H1>U in da HOMEPAGE MothaFatha!!!</H1>
+            <H1>Welcome to ABC Cinemas</H1>
         </div>
     </body>
     <%@ include file="jsp/footer.jsp"%>

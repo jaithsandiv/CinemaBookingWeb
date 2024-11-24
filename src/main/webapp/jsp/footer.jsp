@@ -4,10 +4,17 @@
             <div class="row">
                 <!-- Logo and Description -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <a class="navbar-brand fs-4" href="index.php">
+                    <a class="navbar-brand fs-4" href="#">
                         <img src="icons/logo.png" alt="" width="200">
                     </a>
-                    <p class="footer-description">Experience movies like never before with state-of-the-art technology and ultimate comfort.</p>
+                    <p class="footer-description">Immerse yourself in the world of cinema. Where stories come to life, and the impossible becomes real.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><img src="./icons/facebook.png" alt="Facebook"></a>
+                        <a href="https://www.x.com/"><img src="./icons/x.png" alt="X"></a>
+                        <a href="https://www.instagram.com/"><img src="./icons/instagram.png" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/"><img src="./icons/tiktok.png" alt="Tiktok"></a>
+                   </div>
+                    
                 </div>
 
                 <!-- Quick Links -->
