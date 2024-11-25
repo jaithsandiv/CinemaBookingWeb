@@ -1,23 +1,39 @@
-:root {
-    --primary: #32012F;
-    --secondary: #524C42;
-    --accent: #F97300;
-
-    --background: #E2DFD0;
-    --surface: #FFFFFF;
-    --text: #32012F;
-    --text-light: rgba(255, 255, 255, 0.7);
-
-    --success: #10B981;
-    --warning: #F59E0B;
-    --error: #EF4444;
+.login-button {
+    background-color: var(--primary);
+    transition: all 0.3s ease;
+    border: none;
 }
 
-body {
-    min-height: 100vh;
+.login-button:hover {
+    background-color: var(--primary);
+    opacity: 0.9;
+    transform: translateY(1px);
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(50, 1, 47, 0.25);
+}
+
+.input-group .btn-outline-secondary {
+    background-color: var(--surface);
+    border-color: transparent;
+    color: var(--primary);
+}
+
+.input-group .btn-outline-secondary:hover {
+    background-color: var(--surface);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.container-fluid {
+    padding-top: 64px; /* Adjust this value based on your navbar height */
+}
+
+.welcome-section {
+    min-height: 2vh; /* Instead of using padding */
     display: flex;
-    flex-direction: column;
-    background-color: var(--background);
-    font-family: 'DM Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
-
