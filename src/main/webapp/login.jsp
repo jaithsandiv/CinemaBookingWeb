@@ -1,10 +1,14 @@
-<!-- Include header with parameters -->
-<jsp:include page="jsp/header.jsp">
-    <jsp:param name="title" value="Login" />
-    <jsp:param name="css" value="style.css" />
-</jsp:include>
-<!-- Homepage Content -->
-<div class="container-fluid min-h-screen d-flex flex-column">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ABC CINEMA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <%@ include file="jsp/header.jsp"%>
+    </head>
+    <body>
+        <div class="container-fluid min-h-screen d-flex flex-column">
         <!-- Welcome Section -->
         <div class="row flex-grow-1">
             <div class="col-12 d-flex align-items-center justify-content-center p-5 welcome-section" style="background-color: var(--primary);">
@@ -66,7 +70,7 @@
             </div>
         </div>
     </div>
-<!-- Include footer with parameters -->
-<jsp:include page="jsp/footer.jsp">
-    <jsp:param name="js" value="registration.js" />
-</jsp:include>
+    </body>
+    <%@ include file="jsp/footer.jsp"%>
+    <script src="registration.js"></script>
+</html>
